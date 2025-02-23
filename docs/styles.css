@@ -1,72 +1,60 @@
 body {
-    background-color: #1A1A1A;
-    color: #D3D3D3;
-    font-family: 'Sans-serif';
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
 }
-.sticky-header {
-    position: sticky;
-    top: 0;
+.glassmorphic-navbar {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
 }
-.menu-icon {
-    color: #FF6EC7;
+.nav-links a {
+    color: #FF69B4;
+    transition: color 0.3s;
 }
-.dropdown-menu li a {
-    color: #D3D3D3;
+.nav-links a:hover {
+    color: #00BFFF;
 }
 .hero {
-    background-image: url('futuristic-cityscape.jpg');
+    background-image: url('https://example.com/ai-visualization.jpg');
     background-size: cover;
-    text-align: center;
-    padding: 100px 0;
 }
-.headline {
-    color: #00FFFF;
-    font-weight: bold;
-}
-.cta-button {
+.chat-window {
     background: rgba(255, 255, 255, 0.1);
-    border: none;
-    color: #FF6EC7;
-    padding: 10px 20px;
-    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
 }
-.features {
-    display: flex;
-    justify-content: space-around;
-    padding: 50px 0;
+.typing-effect {
+    font-family: 'Source Code Pro', monospace;
 }
 .feature-card {
     background: rgba(255, 255, 255, 0.1);
-    padding: 20px;
-    border-radius: 10px;
+    backdrop-filter: blur(10px);
     transition: transform 0.3s;
 }
 .feature-card:hover {
-    transform: translateY(-10px);
+    transform: scale(1.05);
 }
-.about-us {
-    display: flex;
-    padding: 50px 0;
-}
-.about-image {
-    flex: 1;
-    background: url('team-image.jpg') no-repeat center center;
-    background-size: cover;
-}
-.about-text {
-    flex: 1;
-    padding: 20px;
+.chat-bubble {
     background: rgba(255, 255, 255, 0.1);
-}
-.contact-form form {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 20px;
+    backdrop-filter: blur(10px);
     border-radius: 10px;
+    padding: 10px;
+}
+.user {
+    color: #FF69B4;
+}
+.ai {
+    color: #00BFFF;
 }
 footer {
-    background-color: #2C1E1E;
-    padding: 20px;
-    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+.social-icons a {
+    color: #FFFFFF;
+    transition: color 0.3s;
+}
+.social-icons a:hover {
+    color: #FF69B4;
 }
